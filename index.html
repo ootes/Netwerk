@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="nl">
+<head>
+	<meta charset="UTF-8">
+	<title>Netwerk</title>
+	<link rel="stylesheet" href="style.css">
+	<link href='http://fonts.googleapis.com/css?family=Merriweather+Sans:400,700,800,300' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Noto+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.5.1/leaflet.css" />
+
+	<meta name="HandheldFriendly" content="True">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  	<meta name="apple-mobile-web-app-capable" content="yes" />
+  	<meta name="apple-mobile-web-app-status-bar-style" content="black">  
+
+  	<link rel="apple-touch-icon-precomposed" href="apple-touch-icon-precomposed.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="apple-touch-icon-72x72-precomposed.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="apple-touch-icon-114x114-precomposed.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="apple-touch-icon-144x144-precomposed.png" />
+
+</head>
+<body>
+	
+	<!-- index page -->
+	<section data-role="page" id="index">
+		<img src="images/logo.png" alt="logo" id="logo">
+
+		<ul id="loginlist">
+			<li><a href="#/dashboard">Facebook</a></li>
+			<li><a href="#/dashboard">LinkedIn</a></li>
+			<li><a href="#/dashboard">Google+</a></li>
+			<li><a href="#/dashboard">Via je E-mailadres</a></li>
+		</ul>
+	</section>
+
+	<!-- index page -->
+	<section data-role="page" id="dashboard">
+		<header id="mainheader">
+			<h1>Dashboard</h1>
+		</header>
+
+		<section id="profilebox">
+			<img src="images/avatars/john.jpg" alt="">
+			<p>Hallo John, maak en keuze</p>
+
+			<p>
+				<a href="#" class="btn">Profiel bekijken</a> |
+				<a href="#/index" class="btn">Uitloggen</a>
+			</p>
+		</section>
+
+		<ul class="coloredlist">
+			<li><a href="#">Zoek naar werkzoekenden</a></li>
+			<li><a href="#">in je omgeving</a></li>
+			<li><a href="#">Geadopteerde (12)</a></li>
+		</ul>
+	</section>
+
+	<script src="js/lib/jquery-1.10.1.min.js"></script>
+	<script src="js/lib/routie.min.js"></script>
+	<script src="js/lib/gator.min.js"></script>
+	<script src="js/lib/ondomready.min.js"></script>
+	<script src="http://cdn.leafletjs.com/leaflet-0.5.1/leaflet.js"></script>
+	<script src="js/lib/transparency.min.js"></script>
+	<script src="js/lib/underscore-min.js"></script>
+	<script src="js/lib/microajax.minified.js"></script>
+	<script src="js/functions.js"></script>
+</body>
+</html>
+
+<!-- 
+	DOCUMENTATION FOR LIBS
+		leaflet			= http://leafletjs.com/reference.html
+		transparency	= https://github.com/leonidas/transparency
+		roetie	 		= http://projects.jga.me/routie/
+		gator 			= http://craig.is/riding/gators		
+		onDomReady 		= https://github.com/tubalmartin/ondomready
+		underscore		= http://underscorejs.org/
+		microajax 		= https://code.google.com/p/microajax/
+-->

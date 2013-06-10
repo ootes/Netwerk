@@ -1,0 +1,147 @@
+body{
+	background: #000;
+	margin:0;
+	font-family: tahoma, verdana, arial;
+	text-align: center;	
+}
+
+img{
+	max-width: 100%;
+}
+
+
+section[data-role=page]{
+	display: none;
+	width: 320px;
+	height: 460px;
+	text-align: center;
+	background: #ededed;
+	position: relative;
+}
+
+section[data-role=page].show{
+	display: inline-block;
+}
+
+
+/* generic style */
+
+#mainheader{
+	width:100%;
+	background: #ededed;
+	display: block;
+	box-shadow: 0px 3px 6px rgba(0,0,0,.2);
+	padding: 0 1em;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	text-align: left;
+	position: relative;
+	z-index: 10;
+}
+
+	#mainheader h1{
+		margin:0;
+		line-height: 2.5;
+		white-space: nowrap;
+		font-size: 1.125em;
+		color: #868f8b;
+	}
+
+.coloredlist{
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	text-align: left;
+}
+	
+	.coloredlist li{
+		width: 100%;
+		margin-bottom: 1px;
+	}	
+
+	.coloredlist li a{
+		padding: 0.5em 1em;
+		display: block;
+		color: #fff;
+		text-decoration: none;
+		font-weight: bold;
+	}
+
+
+
+/* index */
+
+#index{
+	position: relative;
+}
+
+#logo{
+	width: 49.6875%;
+	margin: 4em 0;
+}
+
+ul#loginlist{
+	position: absolute;
+	bottom:0;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+ul#loginlist li{
+	width: 100%;
+	margin-bottom: 1px;
+}
+
+ul#loginlist li:last-child{
+	margin-bottom: 0;
+}
+
+ul#loginlist li a{
+	display: block;
+	background: #868f8b;
+	color: #fff;
+	text-decoration: none;
+	padding: .5em 1em;
+	text-align:left;
+	font-weight: bold;
+}
+
+
+ul#loginlist li:nth-child(1) a{
+	background: #70c3cf;
+}
+ul#loginlist li:nth-child(2) a{
+	background: #70cfb3;
+}
+ul#loginlist li:nth-child(3) a{
+	background: #e5c45f;
+}
+
+/* dashboard */
+#profilebox{
+	width: 100%;
+	background: #fff;
+	padding: 1em;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	text-align: left;	
+	overflow: hidden;
+}
+
+	#profilebox p{
+		font-size: .75em;
+		margin: 0;
+	}
+
+	#profilebox img{
+		width:50px;
+		border: 2px solid #e5c45f;
+		float: left;
+		margin-right: 1em;
+	}
+
+
+
